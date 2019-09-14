@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MostrarResultadoActivity">
+
+    <TextView
+        android:id="@+id/tvValor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="68dp"
+        android:text="Valor 1"
+        app:layout_constraintStart_toEndOf="@+id/tvTextoTitulo1"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/tvValor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:text="Valor 2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvTextoTitulo2"
+        app:layout_constraintStart_toEndOf="@+id/tvTextoTitulo2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:text="Resultado do Modelo"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTextoTitulo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titulo 1:"
+        android:textColor="@color/button_pressed"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvValor1"
+        app:layout_constraintEnd_toEndOf="@+id/tvTextoTitulo2"
+        app:layout_constraintStart_toStartOf="@+id/tvTextoTitulo2" />
+
+    <TextView
+        android:id="@+id/tvTextoTitulo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="98dp"
+        android:layout_marginBottom="99dp"
+        android:text="Titulo 2:"
+        android:textColor="@color/button_pressed"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTextoTitulo3"
+        app:layout_constraintEnd_toEndOf="@+id/tvTextoTitulo3"
+        app:layout_constraintStart_toStartOf="@+id/tvTextoTitulo3"
+        app:layout_constraintTop_toTopOf="@+id/tvValor1" />
+
+    <TextView
+        android:id="@+id/tvTextoTitulo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="94dp"
+        android:text="Titulo 3:"
+        android:textColor="@color/button_pressed"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvValor3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:text="Valor 3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvTextoTitulo3"
+        app:layout_constraintStart_toEndOf="@+id/tvTextoTitulo3" />
+</android.support.constraint.ConstraintLayout>
