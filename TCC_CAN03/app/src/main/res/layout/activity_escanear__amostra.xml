@@ -25,17 +25,6 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/btnScan"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="70dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="70dp"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/button_bg"
-            android:text="Scan" />
-
-        <Button
             android:id="@+id/btnCalibrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -47,7 +36,7 @@
             android:text="Calibrar" />
 
         <Button
-            android:id="@+id/btnObterAmostraID"
+            android:id="@+id/btnScan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="70dp"
@@ -55,29 +44,13 @@
             android:layout_marginRight="70dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/button_bg"
-            android:text="ID Amostra" />
-
-        <Button
-            android:id="@+id/btnAnalisar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="70dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="70dp"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/button_bg"
-            android:text="Analisar" />
-
-        <ListView
-            android:id="@+id/listViewBT"
-            android:layout_width="match_parent"
-            android:layout_height="265dp" />
+            android:text="Escanear e Analisar" />
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="417dp"
             android:alpha="0.4"
             app:srcCompat="@mipmap/logo" />
 

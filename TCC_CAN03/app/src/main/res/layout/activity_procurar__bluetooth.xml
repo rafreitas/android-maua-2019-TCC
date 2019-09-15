@@ -21,8 +21,7 @@
             android:layout_marginRight="70dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/button_bg"
-            android:text="Atualizar"
-            android:textColor="@color/colorPrimary" />
+            android:text="Conectar com SCIO" />
 
         <ImageView
             android:id="@+id/imageView4"

@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
 
     fun escanearSCiO(view: View) {
         val scioCloud = ScioCloud(this)
-        if (scioCloud.hasAccessToken()) {
+        if (scioCloud.hasAccessToken() && Procurar_Bluetooth.bluetoothAtivo) {
             val intent = Intent(this, Escanear_Amostra::class.java)
             startActivity(intent)
         } else {

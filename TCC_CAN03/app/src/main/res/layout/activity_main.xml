@@ -22,8 +22,7 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/button_bg"
             android:onClick="loginSCiO"
-            android:text="Login SCiO"
-            android:textColor="@color/colorPrimary" />
+            android:text="Login SCiO" />
 
         <Button
             android:id="@+id/btnLogout"
@@ -35,8 +34,7 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/button_bg"
             android:onClick="logoutSCiO"
-            android:text="Logout SCiO"
-            android:textColor="@color/colorPrimary" />
+            android:text="Logout SCiO" />
 
         <Button
             android:id="@+id/btnPesquisar"
@@ -48,8 +46,7 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/button_bg"
             android:onClick="procurarBluetooth"
-            android:text="Procurar Bluetooth"
-            android:textColor="@color/colorPrimary" />
+            android:text="Procurar Bluetooth" />
 
         <Button
             android:id="@+id/btnScan"
@@ -61,8 +58,7 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/button_bg"
             android:onClick="escanearSCiO"
-            android:text="Scan"
-            android:textColor="@color/colorPrimary" />
+            android:text="Explorar" />
 
         <ImageView
             android:id="@+id/imageView3"
