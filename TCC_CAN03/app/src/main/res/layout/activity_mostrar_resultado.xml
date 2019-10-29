@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="140dp"
         android:orientation="vertical"
-        tools:context="br.maua.tcc_can03.MostrarResultadoActivity">
+        tools:context="br.maua.tcc_can03.activities.MostrarResultadoActivity">
 
         <TextView
             android:id="@+id/textView"
@@ -23,16 +23,16 @@
             android:textSize="25sp" />
 
         <TextView
-            android:text="Modelo 1"
             android:id="@+id/tvTextoTitulo1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/colorGreen"
             android:layout_gravity="center"
             android:layout_marginLeft="70dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="70dp"
             android:layout_marginBottom="10dp"
+            android:text="Modelo 1"
+            android:textColor="@color/colorGreen"
             android:textSize="18sp" />
 
         <TextView
@@ -95,8 +95,8 @@
             android:layout_marginBottom="20dp" />
 
         <TextView
-            android:text="Foto"
-            android:id="@+id/tvTextoFoto"
+            android:text="Modelo 4"
+            android:id="@+id/tvTextoTitulo4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/colorGreen"
@@ -107,13 +107,64 @@
             android:layout_marginBottom="10dp"
             android:textSize="18sp"/>
 
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="250dp"
-            android:layout_height="210dp"
+        <TextView
+            android:text="Resultado 4"
+            android:id="@+id/tvValor4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="1dp"
-            app:srcCompat="@mipmap/amostra" />
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:text="Modelo 5"
+            android:id="@+id/tvTextoTitulo5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorGreen"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:text="Resultado 5"
+            android:id="@+id/tvValor5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:text="Modelo 6"
+            android:id="@+id/tvTextoTitulo6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorGreen"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:text="Resultado 6"
+            android:id="@+id/tvValor6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="20dp" />
 
         <ImageView
             android:id="@+id/imageView2"

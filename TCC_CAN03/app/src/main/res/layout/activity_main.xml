@@ -10,7 +10,13 @@
         android:layout_width="match_parent"
         android:layout_height="140dp"
         android:orientation="vertical"
-        tools:context="br.maua.tcc_can03.MainActivity">
+        tools:context="br.maua.tcc_can03.activities.MainActivity">
+
+        <TextView
+            android:id="@+id/olaInicioTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Olá, usuário" />
 
         <Button
             android:id="@+id/btnLogin"
@@ -21,7 +27,7 @@
             android:layout_marginRight="70dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/button_bg"
-            android:onClick="loginSCiO"
+            android:onClick="doLogin"
             android:text="Login SCiO" />
 
         <Button
@@ -33,11 +39,11 @@
             android:layout_marginRight="70dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/button_bg"
-            android:onClick="logoutSCiO"
+            android:onClick="doLogout"
             android:text="Logout SCiO" />
 
         <Button
-            android:id="@+id/btnPesquisar"
+            android:id="@+id/btnProcurarBT"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="70dp"
@@ -45,7 +51,7 @@
             android:layout_marginRight="70dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/button_bg"
-            android:onClick="procurarBluetooth"
+            android:onClick="doConnect"
             android:text="Procurar Bluetooth" />
 
         <Button
@@ -57,14 +63,14 @@
             android:layout_marginRight="70dp"
             android:layout_marginBottom="20dp"
             android:background="@drawable/button_bg"
-            android:onClick="escanearSCiO"
+            android:onClick="explorar"
             android:text="Explorar" />
 
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="225dp"
+            android:layout_marginTop="190dp"
             android:alpha="0.4"
             app:srcCompat="@mipmap/logo" />
     </LinearLayout>
